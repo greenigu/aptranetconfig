@@ -7,6 +7,7 @@ package aptranetconfig;
 /**
  *
  * @author a.sinenko
+ * 
  */
 public class Aptranetconfig {
 
