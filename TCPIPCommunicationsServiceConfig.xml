@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CommunicationsConfig 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:noNamespaceSchemaLocation=".\TCPIPCommunicationsServiceConfig.xsd">
+  <TCPIPCommunicationsLink CommsLinkID="TPA CONNECTION" KeepAlive="1" LocalPort="1024" ReconnectOnClose="1" RemoteHost="10.0.11.4" RemotePort="18887" RetryTimer="30000">
+    <MessageDelimiter Assembly="NCR.APTRA.VPITCPIP.DLL" Class="NCR.APTRA.VPITCPIP.StdMessageDelimiter" LengthAdjust="2" LengthEmbedded="0" LengthFormat="1" LengthOffset="0" LengthSize="2" MessageDelimiterID="Anything" PrefixData="0" PrefixSize="0" RCVTimeOut="30000"/>
+  </TCPIPCommunicationsLink>
+</CommunicationsConfig>
